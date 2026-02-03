@@ -29,6 +29,7 @@ import {
   XAxis,
   YAxis
 } from 'recharts';
+import profileImage from './assets/profile_dewi.jpg';
 import { PROJECTS, SERVICES, EXPERIENCES, TECH_STACK, CERTIFICATIONS, EDUCATION } from './constants';
 
 // --- Theme Context / State ---
@@ -181,7 +182,7 @@ const Hero = () => {
           <div className="absolute -top-20 -right-20 w-96 h-96 bg-[#6366F1]/20 blur-[120px] rounded-full"></div>
           <div className="glass dark:bg-white/5 p-3 md:p-4 rounded-[2rem] md:rounded-[3rem] relative z-10 shadow-2xl">
             <img 
-              src="/profile_dewi.jpg" 
+              src={profileImage} 
               alt="Dewi Hasanah" 
               className="w-full aspect-[4/5] object-cover rounded-[1.5rem] md:rounded-[2.5rem] transition-all duration-1000 shadow-inner"
             />

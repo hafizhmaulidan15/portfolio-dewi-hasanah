@@ -13,6 +13,7 @@ import {
   Users,
   Award,
 } from "lucide-react";
+import projectImage from "./assets/dewi_university.jpg";
 import { Project, Service, Experience } from "./types";
 
 export const PROJECTS: Project[] = [
@@ -20,7 +21,7 @@ export const PROJECTS: Project[] = [
     id: "1",
     title: "Penyusunan Laporan Keuangan UMKM",
     category: "Tugas Akhir",
-    image: "/dewi_university.jpg",
+    image: projectImage,
     description:
       "Penyusunan Laporan Keuangan berdasarkan SAK EMKM berbasis Microsoft Excel pada UMKM Tandi's Bakery",
   },
@@ -28,7 +29,7 @@ export const PROJECTS: Project[] = [
     id: "2",
     title: "Analisis Audit Piutang Dagang",
     category: "Project Akademik",
-    image: "/dewi_university.jpg",
+    image: projectImage,
     description:
       "Analisis Pelaksanaan Audit Atas Piutang Dagang Pada KAP KKSP & Rekan - memahami prosedur audit dan pengendalian internal.",
   },
@@ -36,7 +37,7 @@ export const PROJECTS: Project[] = [
     id: "3",
     title: "Template Excel Terintegrasi",
     category: "Finance Development",
-    image: "/dewi_university.jpg",
+    image: projectImage,
     description:
       "Mengembangkan template Excel terintegrasi untuk mempercepat proses penyusunan laporan keuangan di CV Leocorn Ristan Jaya.",
   },
@@ -44,7 +45,7 @@ export const PROJECTS: Project[] = [
     id: "4",
     title: "Audit Prosedur Pajak",
     category: "Audit Internship",
-    image: "/dewi_university.jpg",
+    image: projectImage,
     description:
       "Melakukan prosedur audit Reperformance dan Vouching di Badan Pendapatan Daerah Provinsi DKI Jakarta.",
   },
