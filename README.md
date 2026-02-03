@@ -5,7 +5,7 @@
 ## 📋 About Me
 
 **Dewi Hasanah, S.Tr.Ak**  
-Fresh Graduate from **IPB University** majoring in **Accounting** with a **Cumlaude (GPA 3.68)** distinction. I have over 12 months of internship experience in Finance and Audit, with expertise in financial reporting, reconciliation, and audit procedures.
+Fresh Graduate from **IPB University** majoring in **Accounting** with a **Cumlaude (GPA 3.68)** distinction. I have **2 internship experiences** in Finance and Audit, with expertise in financial reporting, reconciliation, and audit procedures.
 
 This portfolio website showcases my professional journey, academic background, and projects in the Finance & Accounting sector.
 

@@ -148,7 +148,7 @@ const Hero = () => {
 
             </h1>
             <p className="text-base md:text-lg lg:text-xl opacity-60 max-w-lg leading-relaxed font-medium animate-fade-up delay-200 opacity-0">
-              Lulusan Cumlaude Akuntansi IPB University dengan pengalaman magang 12 bulan di bidang Finance & Audit. Terampil dalam penyusunan laporan keuangan, rekonsiliasi transaksi, dan prosedur audit.
+              Lulusan Cumlaude Akuntansi IPB University dengan 2 pengalaman magang di bidang Finance & Audit. Terampil dalam penyusunan laporan keuangan, rekonsiliasi transaksi, dan prosedur audit.
             </p>
           </div>
 
@@ -168,8 +168,8 @@ const Hero = () => {
               <p className="text-[10px] font-black uppercase tracking-widest opacity-40">IPK Cumlaude</p>
             </div>
             <div>
-              <h4 className="text-3xl font-black text-[#6366F1]">12</h4>
-              <p className="text-[10px] font-black uppercase tracking-widest opacity-40">Bulan Magang</p>
+              <h4 className="text-3xl font-black text-[#6366F1]">2</h4>
+              <p className="text-[10px] font-black uppercase tracking-widest opacity-40">Pengalaman Magang</p>
             </div>
             <div>
               <h4 className="text-3xl font-black text-[#6366F1]">2</h4>
