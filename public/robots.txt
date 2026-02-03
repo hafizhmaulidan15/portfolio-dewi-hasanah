@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hafizhmaulidan15.github.io/portfolio-dewi-hasanah/sitemap.xml
