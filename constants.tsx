@@ -13,7 +13,7 @@ import {
   Users,
   Award,
 } from "lucide-react";
-import projectImage from "./assets/dewi_university.jpg";
+import projectImage from "./src/assets/dewi_university.jpg";
 import { Project, Service, Experience } from "./types";
 
 export const PROJECTS: Project[] = [

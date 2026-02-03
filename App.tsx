@@ -29,7 +29,7 @@ import {
   XAxis,
   YAxis
 } from 'recharts';
-import profileImage from './assets/profile_dewi.jpg';
+import profileImage from './src/assets/profile_dewi.jpg';
 import { PROJECTS, SERVICES, EXPERIENCES, TECH_STACK, CERTIFICATIONS, EDUCATION } from './constants';
 
 // --- Theme Context / State ---
