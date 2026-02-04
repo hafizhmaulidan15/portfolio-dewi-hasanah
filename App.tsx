@@ -83,7 +83,7 @@ const Navbar = ({ theme, toggleTheme }: { theme: string, toggleTheme: () => void
             <span className="text-sm md:text-xl font-black tracking-tighter uppercase whitespace-nowrap">Dewi<span className="opacity-40">Hasanah</span></span>
           </div>
 
-          <div className="hidden md:flex items-center space-x-8 text-[10px] font-black uppercase tracking-widest">
+          <div className="hidden lg:flex items-center space-x-8 text-[10px] font-black uppercase tracking-widest">
             <a href="#about" className="hover:text-[#6366F1] dark:hover:text-indigo-400 transition-colors">Profil</a>
             <a href="#education" className="hover:text-[#6366F1] dark:hover:text-indigo-400 transition-colors">Pendidikan</a>
             <a href="#experience" className="hover:text-[#6366F1] dark:hover:text-indigo-400 transition-colors">Pengalaman</a>
@@ -97,7 +97,7 @@ const Navbar = ({ theme, toggleTheme }: { theme: string, toggleTheme: () => void
             <a href="#contact" className="hidden sm:flex bg-gradient-to-r from-[#6366F1] to-[#8B5CF6] text-white px-6 py-3 rounded-full text-[10px] font-black uppercase tracking-widest hover:scale-105 transition-all">
               Hubungi
             </a>
-            <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/5 transition-colors">
+            <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="lg:hidden p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/5 transition-colors">
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
           </div>
@@ -105,7 +105,7 @@ const Navbar = ({ theme, toggleTheme }: { theme: string, toggleTheme: () => void
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="md:hidden mt-4 glass p-6 rounded-3xl space-y-4">
+          <div className="lg:hidden mt-4 glass p-6 rounded-3xl space-y-4">
             <a href="#about" onClick={closeMenu} className="block text-sm font-black uppercase tracking-widest hover:text-[#6366F1] transition-colors">Profil</a>
             <a href="#education" onClick={closeMenu} className="block text-sm font-black uppercase tracking-widest hover:text-[#6366F1] transition-colors">Pendidikan</a>
             <a href="#experience" onClick={closeMenu} className="block text-sm font-black uppercase tracking-widest hover:text-[#6366F1] transition-colors">Pengalaman</a>
