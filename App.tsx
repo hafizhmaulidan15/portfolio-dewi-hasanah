@@ -74,13 +74,13 @@ const Navbar = ({ theme, toggleTheme }: { theme: string, toggleTheme: () => void
 
   return (
     <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${scrolled ? 'py-4' : 'py-8'}`}>
-      <div className="container mx-auto px-4 md:px-6">
-        <div className={`flex justify-between items-center glass p-2 md:p-3 rounded-full border-black/5 dark:border-white/10 px-4 md:px-8 ${scrolled ? 'shadow-2xl' : ''}`}>
+      <div className="container mx-auto px-2 md:px-6">
+        <div className={`flex justify-between items-center glass p-2 md:p-3 rounded-full border-black/5 dark:border-white/10 px-3 md:px-8 ${scrolled ? 'shadow-2xl' : ''}`}>
           <div className="flex items-center gap-2 md:gap-3">
-            <div className="w-8 h-8 md:w-10 md:h-10 bg-gradient-to-br from-[#6366F1] to-[#8B5CF6] rounded-full flex items-center justify-center">
-              <span className="text-white font-black text-sm md:text-lg">D</span>
+            <div className="w-8 h-8 md:w-10 md:h-10 bg-gradient-to-br from-[#6366F1] to-[#8B5CF6] rounded-full flex items-center justify-center flex-shrink-0">
+              <span className="text-white font-black text-xs md:text-lg">D</span>
             </div>
-            <span className="text-base md:text-xl font-black tracking-tighter uppercase block">Dewi<span className="opacity-40">Hasanah</span></span>
+            <span className="text-sm md:text-xl font-black tracking-tighter uppercase whitespace-nowrap">Dewi<span className="opacity-40">Hasanah</span></span>
           </div>
 
           <div className="hidden md:flex items-center space-x-8 text-[10px] font-black uppercase tracking-widest">
@@ -221,9 +221,9 @@ export default function App() {
             <span className="text-[10px] font-black uppercase tracking-[0.4em] text-[#6366F1]">Keahlian</span>
             <h2 className="text-3xl md:text-5xl lg:text-7xl font-black uppercase tracking-tighter">Kompetensi.</h2>
           </div>
-          <div className="grid md:grid-cols-3 gap-4 md:gap-6">
+          <div className="grid md:grid-cols-2 gap-4 md:gap-6">
             {SERVICES.map((s, idx) => (
-              <div key={s.id} className={`glass dark:bg-white/5 p-6 md:p-10 rounded-2xl md:rounded-[2.5rem] border-black/5 dark:border-white/10 transition-all hover:-translate-y-2 ${idx === 0 ? 'md:col-span-2' : ''}`}>
+              <div key={s.id} className="glass dark:bg-white/5 p-6 md:p-10 rounded-2xl md:rounded-[2.5rem] border-black/5 dark:border-white/10 transition-all hover:-translate-y-2">
                 <h3 className="text-xl md:text-2xl lg:text-3xl font-black uppercase tracking-tighter mb-3 md:mb-4">{s.title}</h3>
                 <p className="opacity-60 text-sm md:text-base lg:text-lg">{s.description}</p>
               </div>
